@@ -1,0 +1,68 @@
+body {
+  background-color: indianred;
+  opacity: .8;
+}
+@font-face {
+font-family: DeliciousRoman;
+src: url(/Delicious-Roman.otf);
+}
+h2{
+  font-family: DeliciousRoman;
+}
+h1, h2, h3, p {
+  color: white;
+}
+#contact {
+    background: #F9F9F;
+    padding: 25px;
+    margin: 50px 0;}
+#contact button {
+    width: 20%;
+    border: none;
+    background: indianred;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+  }
+  #nav-roll-over {
+  display: none;
+  text-align: center; }
+  #nav-roll-over span {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ff0032;
+    color: white;}
+    #nav-roll-over span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      border-color: black;
+      border-style: solid;}
+    #nav-roll-over span:hover {
+      background-color: gray; }
+    #nav-roll-over span.open:after {
+      border-color: : black;
+      border-style: solid;
+    }
+nav#nav {
+  background-color: #ff0032;
+  padding: 10px 0; }
+  nav#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  nav#nav li {
+    display: inline-block;
+    border-right: solid 1px #cc0028;
+    padding: 0 5px; }
+    nav#nav li:last-child {
+      border-right: none; }
+  nav#nav a {
+    display: block;
+    color: white;
+    padding: 10px 30px; }
+    nav#nav a:hover {
+      background-color: #e6002d;
+      color: #fff; }
